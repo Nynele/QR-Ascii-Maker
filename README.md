@@ -36,5 +36,7 @@ El QR se muestra en consola con un estilo tipo terminal, ideal para mensajes de 
 ```bash
 📦 qr-ascii-discord
  ┣ 📜 qr.py
+ ┗ 📄 LICENSE
+ ┗ 📄 .gitignore
  ┗ 📄 README.md
 ```
