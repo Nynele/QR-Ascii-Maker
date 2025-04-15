@@ -1,4 +1,19 @@
-import qrcode
+try:
+    import qrcode
+except ImportError:
+    print("""
+=== ERROR: Módulo qrcode no encontrado ===
+Por favor, ejecuta los siguientes comandos en la terminal:
+
+python -m pip install --upgrade pip
+python -m pip install qrcode
+python -m pip install pillow
+
+Si el error persiste, prueba con:
+pip3 install qrcode pillow
+""")
+    input("Presiona Enter para salir...")
+    exit()
 
 banner = """
   ▄▄▄▄▄▄▄  ▄▄▄▄▄▄    ▄▄▄▄▄▄▄  
